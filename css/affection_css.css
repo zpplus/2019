@@ -1,0 +1,119 @@
+@charset "GBK";
+/* CSS Document */
+#main_body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#a_main{
+	height: 100%;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	background-image:url(../img/affection/bg.jpg);
+	}
+
+#lead_pic {
+	position: fixed;
+	top: 30%;
+	left: 25px;
+	z-index: 15;
+	font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "webfont", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#lead_pic a {
+	display: block;
+	font-size: 14px;
+}
+#lead_pic ul {
+	list-style: none;
+}
+ul#sliding-navigation li.sliding-element h3 {
+	color: #fff;
+	background: #B200FF;
+	font-weight: bolder;
+}
+ul#sliding-navigation li.sliding-element a {
+	color: #000;
+	background: #FF00CC;
+	border: none;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul#sliding-navigation li.sliding-element a:hover {
+	color: #00FF33;
+}
+#imageFlow {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	left: 0%;
+	top: 10%;
+	background: #E49EE4;
+}
+#imageFlow .diapo {
+	position: absolute;
+	left: -1000px;
+	cursor: pointer;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+#imageFlow .link {
+	border: dotted #fff 1px;
+	margin-left: -1px;
+	margin-bottom: -1px;
+}
+#imageFlow .bank {
+	visibility: hidden;
+}
+#imageFlow .top {
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background: #fff;
+}
+#imageFlow .text {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	bottom: 16%;
+	text-align: center;
+	color: #FFF;
+	font-family: verdana, arial, Helvetica, sans-serif;
+	z-index: 1;
+}
+#imageFlow .title {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#imageFlow .legend {
+	font-size: 0.8em;
+}
+
+#imageFlow .bar {
+	position: absolute;
+	height: 16px;
+	left: 25px;
+}
+#detail_pic {
+	width: 80%;
+	margin: 60% auto 0;
+	min-width:900px;
+}
+#detail_pic ul {
+	list-style: none;
+}
+#s4_s1 {
+	text-align: right;
+}
+#s2_s1 {
+	text-align: right;
+	
+}
+#s3_s1 {
+	text-align: left;
+	padding-left:80px;
+	padding-bottom:100px;
+}
+#s1_s1 {
+	text-align: left;
+	margin-left:110px;
+}

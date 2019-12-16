@@ -1,0 +1,116 @@
+﻿#nav_table {
+	width: 700px;
+	margin-top:45%;
+	margin-left:auto;
+	margin-right:auto;
+	height:1500px;
+}
+#main_left {
+	text-align: center;
+	position: absolute;
+	height: 1300px;
+	border: none;
+}
+#main_left tr td {
+	border: none;
+	text-align:left;
+}
+#main_left tr td a {
+	
+	text-align:left;
+	
+}
+#main_right {
+	top: 30%;
+	right: 30px;
+	width: 200px;
+	height: 350px;
+	position: fixed;
+}
+.nav_p {
+	
+}
+.nav_p:hover {
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+#home_body {
+	width: 100%;
+	margin: 0;
+	background-color: #fff;
+	background-image:url(../img/asd.jpg);
+}
+.tb_child {
+	height: 150px;
+	width: 400px;
+	border: none;
+	font-family: "STXingkai", "KaiTi_GB2312", "Microsoft YaHei", 微软雅黑, "webfont", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	text-align:left;
+}
+.tb_child tr td {
+	border: none;
+}
+.tb_child tr td a {
+	text-decoration: none;
+	color: #000;
+	text-align:left;
+}
+.nav_a:link {
+	color: #000;
+}
+.tb_child tr td a:visited {
+	color: #000;
+}
+
+.tb_child tr td a:active {
+	color: #000;
+}
+#l1 tr td a:hover {
+	color: #FF957A
+}
+#l2 tr td a:hover {
+	color: #CCFF00
+}
+#l3 tr td a:hover {
+	color: #00FF33
+}
+#l4 tr td a:hover {
+	color: #B200FF
+}
+#lead_pic {
+	position: fixed;
+	top: 42%;
+	left: 25px;
+	z-index:15;
+	font-family:"Microsoft YaHei",微软雅黑,"webfont",Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#lead_pic a {
+	display: block;
+	font-size: 12px;
+}
+
+#lead_pic ul {
+	list-style: none;
+}
+
+ul#sliding-navigation li.sliding-element h3
+{
+	color: #fff;
+	background:#FF643D;
+	font-weight:bolder;
+}
+
+ul#sliding-navigation li.sliding-element a
+{
+	color: #000;
+	background:#FF957A;
+	border: none;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+ul#sliding-navigation li.sliding-element a:hover { color: #3DD8FF; }
